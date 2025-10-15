@@ -1,4 +1,5 @@
 Algoritmo Registro_participante
+---------------------------------
 
 Definir nombre, clasificacion como Caracter
 Definir edad, nivel, shuttle como Entero
@@ -23,7 +24,9 @@ suma<- suma + VO2max
 promedio_grupal <- suma / 10
 suma2<- suma2 + VO2max_leger
 promedio_grupal_leger <- suma2 / 10
-   
+
+
+
 ---------------------------------------------------
      Para i=1 hasta 10 con paso 1 hacer
         Escribir "Ingrese su nombre completo:"
@@ -83,4 +86,3 @@ promedio_grupal_leger <- suma2 / 10
     Escribir "-------------------------------------"
     Escribir "Promedio grupal VO2max Simple: ", promedio_grupal, " ml/kg/min"
     Escribir "Promedio grupal VO2max Leger: ", promedio_grupal_leger, " ml/kg/min"
-    
